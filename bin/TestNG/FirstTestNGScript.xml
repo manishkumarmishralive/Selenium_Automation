@@ -1,0 +1,11 @@
+<suite name="FirstScript">
+<test name="FirstTest">
+<classes>
+<class name="TestNG.FirstTestNGScript">
+<methods>
+
+</methods>
+</class>
+</classes>
+</test>
+</suite>

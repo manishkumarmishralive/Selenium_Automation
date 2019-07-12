@@ -1,0 +1,12 @@
+<suite name="spicejet suite">
+<test name="spicejet results">
+<classes>
+<class name="TestNG.Yatra_comPopUP">
+<methods>
+<include name="verifyOnewaySearch"></include>
+<include name="verifypopUP"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite> 

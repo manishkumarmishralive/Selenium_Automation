@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="password" value="MmAa@#1995"/>
+  <parameter name="browser" value="InetrnetExplorer"/>
+  <parameter name="url" value="https://gmail.com"/>
+  <parameter name="email" value="manishmishralive"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testNG2.VerifyTitle">
+        <methods>
+          <include name="VerifyPageTitle"/>
+        </methods>
+      </class> <!-- testNG2.VerifyTitle -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="InetrnetExplorer"/>
+    <classes>
+      <class name="testNG2.VerifyTitle">
+        <methods>
+          <include name="VerifyPageTitle"/>
+        </methods>
+      </class> <!-- testNG2.VerifyTitle -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

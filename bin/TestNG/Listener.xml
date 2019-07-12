@@ -1,0 +1,11 @@
+<suite name="ListenerSuite">
+<listeners>
+<listener class-name="TestNG.Listener"></listener>
+</listeners>
+<test name="ListenerTest">
+<classes>
+<class name="TestNG.MyFirstTestCase">
+</class>
+</classes>
+</test>
+</suite>
